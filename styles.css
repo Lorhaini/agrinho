@@ -1,0 +1,91 @@
+/* Reset básico e estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2, #80deea);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.quote-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 5px solid #4caf50; /* Verde agrícola */
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #2e7d32; /* Verde mais escuro */
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+}
+
+.quote {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #333;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.author {
+    font-weight: bold;
+    color: #4caf50;
+    font-size: 1.2rem;
+}
+
+.festivities {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.festivity {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+}
+
+.festivity h2 {
+    color: #2e7d32;
+    border-bottom: 2px dashed #4caf50;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.festivity ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.festivity li {
+    padding: 0.5rem 0;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.festivity.rural {
+    border-top: 5px solid #8bc34a; /* Verde campo */
+}
+
+.festivity.urban {
+    border-top: 5px solid #2196f3; /* Azul cidade */
+}
