@@ -81,6 +81,9 @@ h1 {
     border-bottom: 1px solid #eee;
     text-align: center;
 }
+.paragrafo {
+    color:#555;
+}
 
 .festivity.rural {
     border-top: 5px solid #8bc34a; /* Verde campo */
